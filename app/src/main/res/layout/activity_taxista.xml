@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mi_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/bg_toolbar"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/rlCont"
+        android:layout_below="@+id/mi_toolbar"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/foto"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/pbCargando"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"
+        android:text="Pedro Bonifacio Palacios"
+        android:layout_alignTop="@+id/rlCont"
+        android:layout_toRightOf="@+id/rlCont"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLicencia"
+        android:text="Licencia: 5809227"
+        android:layout_alignLeft="@+id/txtNombre"
+        android:layout_below="@+id/txtNombre"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefono"
+        android:text="Telefono: 72996500"
+        android:layout_alignLeft="@+id/txtNombre"
+        android:layout_below="@+id/txtLicencia"
+        android:layout_marginTop="10dp"/>
+    <Button
+            android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/btnLlamar"
+        android:background="@drawable/telefono"
+        android:layout_alignRight="@+id/txtTelefono"
+        android:layout_below="@+id/txtTelefono"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+</RelativeLayout>

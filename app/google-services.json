@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "324328224004",
+    "firebase_url": "https://taxi-fast.firebaseio.com",
+    "project_id": "taxi-fast",
+    "storage_bucket": "taxi-fast.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324328224004:android:c22be7e443fee6fd",
+        "android_client_info": {
+          "package_name": "com.vitalsoftware.taxifast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324328224004-tan80oc3f43em5lhm6lja40ans4u15f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2CuS_uh2uanKPVm4KM-lYKtfl1mG_gI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bg_toolbar"
+            app:theme="@style/ToolBarStyle"
+            android:fitsSystemWindows="true"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblDir"
+        android:text="Dirección:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblDir"
+        android:layout_toRightOf="@+id/lblDir"
+        android:layout_marginLeft="5dp"
+        android:textSize="20dp"
+        android:text="Calle Campero entre Ingavi y Bolivar #751(Galeria Hilton) Oficina #6. Tarija - Bolivia"
+        android:id="@+id/txtDir"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celulares:"
+        android:layout_below="@id/txtDir"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/lblDir"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDir"
+        android:layout_toRightOf="@+id/lblDir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="72994687, 72986461"
+        android:id="@+id/txtTelf"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfonos:"
+        android:layout_below="@id/txtTelf"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/lblDir"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTelf"
+        android:layout_toRightOf="@+id/lblDir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="66-77055,  66-40002"
+        android:id="@+id/txtTelfF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo:"
+        android:layout_below="@id/txtTelfF"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/lblDir"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTelfF"
+        android:layout_toRightOf="@+id/lblDir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="19dp"
+        android:text="taxifast.appnet@hotmail.com"
+        android:id="@+id/txtCorreo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook:"
+        android:layout_below="@id/txtCorreo"
+        android:layout_marginTop="6dp"
+        android:layout_alignRight="@+id/lblDir"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCorreo"
+        android:layout_toRightOf="@+id/lblDir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="TaxiFast o @TaxiFastApp"
+        android:id="@+id/txtFace"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram:"
+        android:layout_below="@id/txtFace"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/lblDir"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFace"
+        android:layout_toRightOf="@+id/lblDir"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:text="taxifast.app"
+        />
+
+</RelativeLayout>

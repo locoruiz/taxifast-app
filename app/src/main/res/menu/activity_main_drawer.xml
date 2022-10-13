@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Usuario">
+        <menu>
+            <item
+                android:id="@+id/usuario"
+                android:title="Ricardo Ruiz Romero" />
+        </menu>
+    </item>
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_historial"
+                android:icon="@drawable/ic_historial"
+                android:title="Historial Viajes" />
+        </menu>
+    </item>
+    <item android:title="Comunicarse">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/notificon"
+                android:title="Contacto" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_salir"
+        android:icon="@drawable/logout"
+        android:title="Salir" />
+</menu>
